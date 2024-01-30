@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FindBugs-IDEA">
+    <analysisEffort>min</analysisEffort>
+    <minRank>1</minRank>
+    <minPriority>High</minPriority>
+    <suppressWarningsClassName />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bcrypt-0.4.1" level="project" />
+    <orderEntry type="library" name="bytes-0.4.6" level="project" />
+    <orderEntry type="library" name="gson-2.10.1" level="project" />
+    <orderEntry type="library" name="jackson-annotations-2.16.1" level="project" />
+    <orderEntry type="library" name="jackson-core-2.16.1" level="project" />
+    <orderEntry type="library" name="jackson-databind-2.16.1" level="project" />
+    <orderEntry type="library" name="jakarta.activation-2.0.1" level="project" />
+    <orderEntry type="library" name="jakarta.mail-2.0.1" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="f25bcf71-d924-45e1-a599-e4a63a037cbe" />
+  </component>
+</module>

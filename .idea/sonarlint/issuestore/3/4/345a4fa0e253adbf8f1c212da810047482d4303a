@@ -1,0 +1,7 @@
+
+s
+java:S1192>"QDefine a constant instead of duplicating this literal "ĞŸĞ¾Ğ¼Ğ¸Ğ»ĞºĞ°: " 3 times.(Êı¼¦üÿÿÿÿ8Ş”ĞÕ1
+o
+java:S6204K"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8”ĞÕ1
+Z
+java:S1117e"8Rename "path" which hides the field declared at line 46.(™íÒÒüÿÿÿÿ8Å”ĞÕ1
