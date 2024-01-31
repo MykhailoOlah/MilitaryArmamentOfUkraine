@@ -1,7 +1,7 @@
 
-s
-java:S1192>"QDefine a constant instead of duplicating this literal "ĞŸĞ¾Ğ¼Ğ¸Ğ»ĞºĞ°: " 3 times.(Êı¼¦üÿÿÿÿ8ğğ¿ÏÕ1
+p
+java:S1192="SDefine a constant instead of duplicating this literal "ĞŸĞ¾Ğ¼Ğ¸Ğ»ĞºĞ°âŒ " 3 times.(ï˜÷á8§Î«Ö1
 N
-java:S1117Y"8Rename "path" which hides the field declared at line 46.(£ú¹İ
+java:S1117X"8Rename "path" which hides the field declared at line 45.(£ú¹İ
 h
-java:S6204m"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+java:S6204l"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹

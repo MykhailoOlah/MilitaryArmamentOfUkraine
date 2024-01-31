@@ -1,1 +1,42 @@
-[{"id":0,"name":"Ніж","haveLic":false},{"id":0,"name":"userr","password":"$2a$12$.WswAQCbzHlh/N/38p8gmuctBQleDCBCoTbVwZj2RNKlGl8EoV7tm","haveLic":true,"role":"Admin"},{"id":0,"name":"tistirovsik","password":"$2a$12$F4rXjArxg1kk8ModYSg1k.NJZmFINifCjevpoU123tbcXbVPQiD3S","email":"tistirovsik@example.com","haveLic":false,"role":"User"},{"id":0,"name":"testtest2","password":"$2a$12$lcc.xe/DjMjOeyYIRUXeV.16Ct.uDQdBqqxk0.YfuOOkjci6jGua2","email":"testtest2@example.com","haveLic":false,"role":"User"},{"id":0,"name":"logintest","password":"$2a$12$zc9o1Melfro82sWApyat5Oh5hjQ7ti2iNfRyTdK.bAS4Myx9A4O1W","email":"logintest@example.com","haveLic":false,"role":"User"}]
+[
+  {
+    "id": 0,
+    "name": "admin",
+    "password": "$2a$12$9puDYG4YFMTNLgWCdftpy.LNyfSPgF5RWjTdLGILj3WIAA8yiDl0K",
+    "email": "admin777@gmail.com",
+    "haveLic": true,
+    "role": "Admin"
+  },
+  {
+    "id": 0,
+    "name": "Misha",
+    "password": "$2a$12$w4RcUq.LAfXWI/6Zh7sVu...0QSY/pxB/K3/ugCRcRHCiJVgHWPs6",
+    "email": "Misha2006@gmail.com",
+    "haveLic": false,
+    "role": "User"
+  },
+  {
+    "id": 0,
+    "name": "bobik",
+    "password": "$2a$12$FjeK3UP628InZUuxxcJRQev/ZNv8IoC94vwRJsw3DPa3srWB4iuTW",
+    "email": "bobik666@gmail.com",
+    "haveLic": true,
+    "role": "User"
+  },
+  {
+    "id": 0,
+    "name": "Kapitan",
+    "password": "$2a$12$/J0UE.MVBf0S6EcACV08TOfTaKyxFwAbC2GJKRtQBPfCvQ3Ffd.li",
+    "email": "kapitan333@gmail.com",
+    "haveLic": true,
+    "role": "User"
+  },
+  {
+    "id": 0,
+    "name": "test1",
+    "password": "$2a$12$dDp.cy2KRuLK.d678xrwN.A.9iIMnvS1WEVETYBtBTCiyGrSz9r3K",
+    "email": "test1@gmail.com",
+    "haveLic": true,
+    "role": "User"
+  }
+]

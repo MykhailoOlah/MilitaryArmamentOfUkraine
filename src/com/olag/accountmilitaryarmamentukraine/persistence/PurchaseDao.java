@@ -1,10 +1,9 @@
 package com.olag.accountmilitaryarmamentukraine.persistence;
 
-import com.olag.accountmilitaryarmamentukraine.domain.JsonService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.olag.accountmilitaryarmamentukraine.domain.JsonService;
 import com.olag.accountmilitaryarmamentukraine.persistence.entity.Purchase;
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
@@ -59,7 +58,7 @@ public class PurchaseDao {
         try {
             JsonService.writeString(path, jsonForPurchase);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
 
@@ -76,7 +75,7 @@ public class PurchaseDao {
         try {
             JsonService.writeString(path, jsonForPurchase);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
 
@@ -93,7 +92,7 @@ public class PurchaseDao {
         try {
             JsonService.writeString(path, jsonForPurchase);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
 

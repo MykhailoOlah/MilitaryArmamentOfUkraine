@@ -45,7 +45,7 @@ public class EmailVerificationService {
 
 			Transport.send(message);
 
-			System.out.println("Повідомлення успішно відправлено!");
+			System.out.println("Повідомлення успішно відправлено\uD83D\uDCE9");
 
 		} catch (MessagingException e) {
 			throw new RuntimeException(

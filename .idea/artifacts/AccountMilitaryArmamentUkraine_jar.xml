@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AccountMilitaryArmamentUkraine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AccountMilitaryArmamentUkraine_jar</output-path>
+    <root id="archive" name="AccountMilitaryArmamentUkraine.jar">
+      <element id="module-output" name="AccountMilitaryArmamentUkraine" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-core-2.16.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jakarta.activation-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-databind-2.16.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jakarta.mail-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/bcrypt-0.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/bytes-0.4.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-annotations-2.16.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

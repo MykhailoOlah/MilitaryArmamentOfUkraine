@@ -1,1 +1,30 @@
-[{"id":0,"type":"Холодна зброя","name":"Ніж","price":12.0,"description":"Охотнічий ніж"}]
+[
+  {
+    "response": "Крутий кулемет!",
+    "userName": "Misha",
+    "gun": "MG5 ",
+    "typeGun": "Кулемет",
+    "dateCreate": "Feb 1, 2024, 6:06:00 PM"
+  },
+  {
+    "response": "Дуже точний постріл",
+    "userName": "Misha",
+    "gun": "Форт-301 ",
+    "typeGun": "Снайперська гвинтівка",
+    "dateCreate": "Feb 1, 2024, 6:06:32 PM"
+  },
+  {
+    "response": "Хороша зброя",
+    "userName": "Kapitan",
+    "gun": "Carl Gustaf ",
+    "typeGun": "Протитанковий гранатомет",
+    "dateCreate": "Feb 1, 2024, 6:08:43 PM"
+  },
+  {
+    "response": "Удобний та практичний",
+    "userName": "Kapitan",
+    "gun": "HK416",
+    "typeGun": "Автомат",
+    "dateCreate": "Feb 1, 2024, 6:09:25 PM"
+  }
+]

@@ -1,12 +1,13 @@
 
-…
-java:S1192|"cDefine a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ¾ Ñ…Ğ¸Ğ±Ğ½Ñ– Ğ´Ğ°Ğ½Ñ–" 6 times.(•ºîûÿÿÿÿ8¬Ş§ÒÕ1
+‰
+java:S1192²"fDefine a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ¾ Ñ…Ğ¸Ğ±Ğ½Ñ– Ğ´Ğ°Ğ½Ñ–âŒ" 5 times.(ƒö¼ùÿÿÿÿ8øè€¦Ö1
 m
-java:S1192†"ODefine a constant instead of duplicating this literal "[3] ĞĞ°Ğ·Ğ°Ğ´" 3 times.(èÁ‘8¬Ş§ÒÕ1
+java:S1192 "ODefine a constant instead of duplicating this literal "[3] ĞĞ°Ğ·Ğ°Ğ´" 3 times.(èÁ‘8®ê¦Ö1
 W
-java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8æ§ÒÕ1
->	java:S131#""Add a default case to this switch.(¬ Ï§8œæ§ÒÕ1
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8æ§ÒÕ1
+O
+java:S6126"2Replace this String concatenation with Text block.(®ùëÖ8½Å«Ö1
 t
-java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(–Æëêüÿÿÿÿ8æ§ÒÕ1
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(–Æëêüÿÿÿÿ8æ§ÒÕ1
 H
-java:S1068"+Remove this unused "gunsDao" private field.(«‡¢¼8¸æ§ÒÕ1
+java:S1068"+Remove this unused "gunsDao" private field.(«‡¢¼8¸æ§ÒÕ1

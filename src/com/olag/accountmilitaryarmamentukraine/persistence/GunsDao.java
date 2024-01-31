@@ -1,10 +1,9 @@
 package com.olag.accountmilitaryarmamentukraine.persistence;
 
-import com.olag.accountmilitaryarmamentukraine.domain.JsonService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.olag.accountmilitaryarmamentukraine.domain.JsonService;
 import com.olag.accountmilitaryarmamentukraine.persistence.entity.Guns;
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
@@ -54,7 +53,7 @@ public class GunsDao {
         try {
             JsonService.writeString(path, jsonForGuns);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
     /**
@@ -70,7 +69,7 @@ public class GunsDao {
         try {
             JsonService.writeString(path, jsonForGuns);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
 
@@ -87,7 +86,7 @@ public class GunsDao {
         try {
             JsonService.writeString(path, jsonForGuns);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
     /**

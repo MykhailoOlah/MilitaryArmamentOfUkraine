@@ -29,13 +29,13 @@ public class AuthorizationService {
                             .toLowerCase().startsWith("win") ? "Windows-1251" : "UTF-8"));
             try {
                 String userLogin = userLoginInput.nextLine();
-                System.out.println("Введіть пароль: ");
+                System.out.println("Введіть пароль\uD83D\uDD10: ");
                 Scanner password = new Scanner(System.in,
                     Charset.forName(System.getProperty("os.name")
                         .toLowerCase().startsWith("win") ? "Windows-1251" : "UTF-8"));
                 String userPassword = password.nextLine();
 
-                System.out.println("Введіть електронну пошту: ");
+                System.out.println("Введіть електронну пошту\uD83D\uDCE7: ");
                 String userEmail = scanner.next();
 
                 String role = String.valueOf(userDAO.getRoleByUsername(userLogin));
@@ -47,15 +47,15 @@ public class AuthorizationService {
                 User user = new User(userLogin, userPassword, userEmail, haveLic, role);
 
                 if (isExistUser(user) == 1) {
-                    System.out.println("Авторизація успішна!");
+                    System.out.println("Авторизація успішна✅");
                     Menu.mainMenu(userLogin);
                     break;
                 } else if (isExistUser(user) == 2) {
-                    System.out.println("Не вірний логін або пароль!");
+                    System.out.println("Не вірний логін або пароль❌");
                     Menu.startMenu();
                 }
             } catch (Exception e) {
-                System.out.println("Помилка, спробуйте ще раз!");
+                System.out.println("Помилка, спробуйте ще раз❌");
             }
         }
     }
