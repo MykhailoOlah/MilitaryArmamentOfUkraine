@@ -1,17 +1,16 @@
 package com.olag.accountmilitaryarmamentukraine.persistence;
 
+import static com.olag.accountmilitaryarmamentukraine.domain.JsonService.jsonUserList;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.olag.accountmilitaryarmamentukraine.persistence.entity.User;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
-import static com.olag.accountmilitaryarmamentukraine.domain.JsonService.jsonUserList;
 
 /**
  * Клас UserDao відповідає за доступ до даних користувачів та виконання операцій з ними.

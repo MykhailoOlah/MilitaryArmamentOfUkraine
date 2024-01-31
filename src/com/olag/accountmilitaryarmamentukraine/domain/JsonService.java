@@ -55,7 +55,7 @@ public class JsonService {
             }
             jsonToArray = readString(pathToFile);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
 
         if (jsonToArray != null) {
@@ -85,7 +85,7 @@ public class JsonService {
             }
             jsonToArray = readString(pathToFile);
         } catch (IOException e) {
-            System.out.println("Error is: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
         User[] users = gson.fromJson(jsonToArray, User[].class);
         return new ArrayList<>(Arrays.asList(users));
@@ -100,7 +100,7 @@ public class JsonService {
             }
             jsonToArray = readString(pathToFile);
         } catch (IOException e) {
-            System.out.println("Error is: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
         Purchase[] purchases = gson.fromJson(jsonToArray, Purchase[].class);
         return new ArrayList<>(Arrays.asList(purchases));
@@ -117,7 +117,7 @@ public class JsonService {
             }
             jsonToArray = readString(pathToFile);
         } catch (IOException e) {
-            System.out.println("Error is: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
         Response[] responses = gson.fromJson(jsonToArray, Response[].class);
         return new ArrayList<>(Arrays.asList(responses));
@@ -133,7 +133,7 @@ public class JsonService {
             }
             jsonToArray = readString(pathToFile);
         } catch (IOException e) {
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
 
         if (jsonToArray != null) {
@@ -143,9 +143,6 @@ public class JsonService {
             return new ArrayList<>(); // or handle it accordingly
         }
     }
-
-
-
 
     /**
      * Додавання користувачів
@@ -159,7 +156,7 @@ public class JsonService {
             writeString(pathToFile, usersToStr);
         }
         catch (IOException e){
-            System.out.println("Помилка: " + e.getMessage());
+            System.out.println("Помилка❌ " + e.getMessage());
         }
     }
 }

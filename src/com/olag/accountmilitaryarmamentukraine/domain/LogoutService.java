@@ -11,7 +11,7 @@ public class LogoutService {
      * Метод виходу з аккаунту
      */
     public static void logout(){
-        System.out.println("Успішний вихід з аккаунту!");
+        System.out.println("Успішний вихід з аккаунту✅");
         Menu.startMenu();
     }
 }
