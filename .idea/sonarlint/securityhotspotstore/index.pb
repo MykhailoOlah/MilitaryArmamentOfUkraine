@@ -86,3 +86,13 @@ p
 @src/com/olag/accountmilitaryarmamentukraine/persistence/Dao.java,b\1\b1f9038aa2a896c6435a0d2f18d8307ecfd23d37
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+s
+Csrc/com/olag/accountmilitaryarmamentukraine/domain/JsonService.java,e\3\e380a6ff663964526117838f2d6084b314a69f44
+u
+Esrc/com/olag/accountmilitaryarmamentukraine/domain/LogoutService.java,f\4\f405ce71c6321b8e1a80ef258463c981bc066138
+|
+Lsrc/com/olag/accountmilitaryarmamentukraine/domain/AuthorizationService.java,4\a\4a3381b6bc9b929f4117817ec341a4e659670978
+w
+Gsrc/com/olag/accountmilitaryarmamentukraine/domain/RegisterService.java,a\3\a33f5cbd2c24d52254986720fc790e0af9b7357b
+e
+5src/com/olag/accountmilitaryarmamentukraine/Main.java,a\d\adee3373c64c8199c3a3925743909ae6166487e2

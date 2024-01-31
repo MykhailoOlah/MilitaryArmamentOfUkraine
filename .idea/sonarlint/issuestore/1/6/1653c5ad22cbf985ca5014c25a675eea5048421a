@@ -3,5 +3,3 @@ s
 java:S11929"QDefine a constant instead of duplicating this literal "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ°: " 3 times.(Êý¼¦üÿÿÿÿ8Æ±»ÑÕ1
 S
 java:S1117S"8Rename "path" which hides the field declared at line 42.(…¤Ïþúÿÿÿÿ
-h
-java:S6204r"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
