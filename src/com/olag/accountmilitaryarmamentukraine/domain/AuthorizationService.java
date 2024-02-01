@@ -23,7 +23,7 @@ public class AuthorizationService {
      */
     public static void authorization() {
         while (true) {
-            System.out.println("Введіть логін: ");
+            System.out.println("Введіть логін\uD83D\uDE4B\uD83C\uDFFC\u200D♂\uFE0F: ");
             Scanner userLoginInput = new Scanner(System.in,
                     Charset.forName(System.getProperty("os.name")
                             .toLowerCase().startsWith("win") ? "Windows-1251" : "UTF-8"));
